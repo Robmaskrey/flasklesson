@@ -1,9 +1,12 @@
 {% extends 'base.html' %}
 
-{% block content %}
+{% block title %} Home - {{ super() }}{% endblock %}
+
+{% block app_content %}
   <body>
     <!-- double curly brackets call jinja2 to mediate front end and back end -->
-    <h1>Hello, {{ user2.username }}! </h1>
-    <h3> 2 + 2 = {{ num }}</h3>
+    
+    <!-- testing if bootstrap is connected  -->
+
   </body>
 {% endblock %}
