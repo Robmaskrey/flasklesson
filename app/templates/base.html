@@ -21,6 +21,7 @@
         <li class="logout"><a href="{{ url_for('logout') }}">Logout</a></li>
         {% endif %}
       </ul>
+      <p class="navbar-text pull-right">Hi {{ current_user.username}}!</p>
     </nav>
   {% endblock %}
 
